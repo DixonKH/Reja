@@ -16,7 +16,7 @@ app.use(express.urlencoded({extended: true}));
 //3. // 3. Views code: Bu bolimda traditional yol bilan yani server side rendering yoli orqali html qurib clientga yuboramiz:
 
 app.set("views", "views");                   // bu yerda biz views degan folder ochayabmiz
-app.set("view engine", "ejs");                // hamda view folder engine ni ejs ekanligini korsatyabmiz bu views folderini oqiydi
+app.set("view engine", "ejs");                 // hamda view folder engine ni ejs ekanligini korsatyabmiz bu views folderini oqiydi
 
 
 //4.  Routing code: bu routerlarga moljallangan bolim
@@ -25,9 +25,9 @@ app.get("/hello", function(req, res) {
     res.end(`<h1 style="color: red">Hello World</h1>`);
 });
 
-app.get("/gift", function(req, res) {
+app.get("/gift", function(req, res) {  
     res.end(`<h1 style="color: blue">Siz sovgalar bolimidasiz</h1>`);
-});
+}); 
 
 // app.post("/create-item", (req, res) => {
 //     console.log(req.body);
