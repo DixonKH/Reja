@@ -1,0 +1,523 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+.frame{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#E5E5E5;
+
+}
+.main_frame {
+    position: relative;
+    width:1440px;
+    height: 1312px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+    background-color: #F0F0F6;
+    
+}
+
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    background:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_frame .mid_frame {
+   position: relative;
+   width: 970px;
+   height: 1259px;
+   margin-left: 30px;
+   margin-right: 27px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.main_frame .right_frame {
+    position: relative;
+    width: 108px;
+    height: 1315px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* left side first column*/
+
+.main_frame .left_frame .left_1 {
+    position: relative;
+    width: 228px;
+    height: 253px;
+    margin-top: 47px;
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_frame .left_frame .left_1 .left_1_person {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     width: 156.16px;
+     height: 135.05px;
+     margin-bottom: 26.96px;
+}
+
+.main_frame .left_frame .left_1 .left_1_person_name {
+     position: relative;
+     width: 64px;
+     height: 20.85px;
+     margin-bottom: 6.21px;
+     font-family: sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 123.6%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-transform: capitalize;
+     color: #2b2b2b;
+}
+
+.main_frame .left_frame .left_1 .left_1_person_job {
+    position: relative;
+    width: 147.84px;
+    height: 24.31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+.left_1_icons {
+     position: relative;
+     width: 238px;
+     height: 22px;
+     margin-top: 17.62px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.link_href {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    position: relative;
+    width: 24.99px;
+    height: 21.61px;
+    border-radius: 50%;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #ffb400;
+}
+
+.icon-1 {
+    position: relative;
+    left: 19.08%;
+    right: 29.17%;
+    bottom: 8%;
+    margin-top: 5.85px;
+}
+
+.main_frame .left_frame .marginer {
+    position: relative;
+    width: 220px;
+    height: 0px;
+    margin-left: 47px;
+    margin-top: 39px;
+    margin-bottom: 25px;
+    border: 1.5px solid #f0f0f6;
+}
+
+.main_frame .left_frame .left_2 {
+    position: relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_frame .left_frame .left_3 {
+    position: relative;
+    width: 220px;
+    height: 153px;
+    margin-top: 25px;
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main_frame .left_frame .left_4 {
+     position: relative;
+     width: 220px;
+     height: 242px;
+     margin-top: 25px;
+     margin-left: 47px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.main_frame .left_frame .left_5 {
+     position: relative;
+     width: 186px;
+     height: 148px;
+     margin-top: 25px;
+     margin-left: 47px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+/* left side second column*/
+
+.left_2 .left_2_columns {
+    position: relative;
+    width: 220px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_2_columns .columns_info{
+    position: relative;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    background-color: #ffb400;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+/* left side third column */
+
+.left_frame .left_3 .left_3_columns{
+     position: relative;
+     width: 220px;
+     height: 34px;
+     display: flex;
+     margin-top: 9px;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.left_frame .left_3 .left_3_columns .lang{
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-family: sans-serif;
+     font-size: 15px;
+}
+
+.left_3_columns .lang span{
+    color:#767676;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/* left side column four */
+ 
+.left_frame .left_4 .left_4_columns .skill {
+    position: relative;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-family: sans-serif;
+}
+
+.left_4_columns .skill span{
+    color:#767676;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+/*  left side column five */
+
+.left_5 .left_5_columns {
+  width: 186px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+.left_5 .left_5_columns span{
+    width: 156px;
+    height: 24px;
+    margin-left: 6px;
+    color: #767676;
+    font-family: sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* middle frame */
+
+.main_frame .mid_frame {
+    position: relative;
+    width: 970px;
+    height: 1259px;
+    margin-top: -55px;
+    margin-left: 30px;
+    margin-right: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 140px;
+ }
+
+ .main_frame .mid_frame .mid_top {
+    position: relative;
+    width: 970px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    background-color: white;
+
+ }
+
+ .mid_top .mid_top_left {
+     position: relative;
+     width: 500px;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: -40px 0 0 0;
+ }
+
+ .mid_top .mid_top_left  .person_info {
+    width: 500px;
+    height: 116.74px;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 123.6%;
+    color: #2b2b2b;
+ }
+
+ .mid_top .mid_top_left  .person_info_1 {
+    position: relative;
+    width: 424.44px;
+    height: 85.61px;
+    margin: 17px 0 22px 0;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #767676;
+ }
+
+ .mid_top .mid_top_left .hire_btn {
+     position: relative;
+     width: 154px;
+     height: 51px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffb400;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .mid_top .mid_top_right {
+    position: relative;
+    width: 326px;
+    height: 460.63px;
+    margin-bottom: 0px;
+    
+ }
+
+ .mid_top .mid_top_right img{
+    position: relative;
+    height: 470px;
+
+ }
+ .mid_top .mid_top_icons {
+    position: absolute;
+    left:36px;
+    top:5px;
+ }
+ .mid_top .mid_top_icons_2 {
+    position: absolute;
+    right: 400.53px;
+    bottom: 60.43px;
+ }
+
+ .mid_top .mid_top_icons_3 {
+    position: absolute;
+    top: 28px;
+    right: 438.44px;
+ }
+
+ .mid_top .mid_top_icons_4 {
+    position: absolute;
+    right: 37.02px;
+    bottom: 14.67px;
+ }
+
+ .mid_top .mid_top_icons_5 {
+    position: absolute;
+    right: 579.18px;
+    bottom: 102.81px;
+ }
+
+ .mid_top .mid_top_icons_6 {
+    position: absolute;
+    left: 84px;
+    bottom: 19.54px;
+ }
+
+ .mid_top .mid_top_icons_7 {
+    position: absolute;
+    right: 57px;
+    top: 32px;
+ }
+
+ /*  My Servise section*/
+
+.mid_frame .mid_bottom {
+    position: relative;
+    width: 970px;
+    height: 653px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid_frame .mid_bottom .mid_bottom_1 {
+    position: relative;
+    width: 193px;
+    height: 40px;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100.6%;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    color: #2b2b2b;
+}
+
+.mid_frame .mid_bottom .mid_bottom_2 {
+position: relative;
+width: 438px;
+height: 68px;
+font-family:sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-transform: capitalize;
+text-align: center;
+color: #767676;
+margin-bottom: 50px;
+}
+
+.mid_frame .mid_bottom .mid_bottom_3 {
+    position: relative;
+    width: 970px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mid_bottom .mid_bottom_3 .mid_bottom_row {
+    width: 970px;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.mid_bottom .mid_bottom_3 .mid_bottom_row .mid_bottom_row_inside {
+    width: 310px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+} 
+
+.mid_bottom_row .mid_bottom_row_inside h4{
+width: 158px;
+height: 22px;
+margin: 26px 0 15px 0;
+color: rgb(43, 43, 43);
+font-family: sans-serif;
+font-size: 18px;
+line-height: 123.6%;
+text-transform: capitalize;
+}
+
+.mid_bottom_row .mid_bottom_row_inside p{
+width: 134px;
+height: 24px;
+color: rgb(118, 118, 118);
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+margin: 0;
+}
+
+.mid_bottom_row .mid_bottom_row_inside .text {
+    width: 260px;
+    height: 78px;
+}
+
+.mid_bottom_row .mid_bottom_row_inside span {
+width: 100px;
+height: 14px;
+color: rgb(255, 180, 0);
+font-family: sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 14px;
+margin-top: 10px;
+}
+
+
+
+
+
