@@ -12,15 +12,17 @@
 
   <body style="background-color:lightblue">
     <div class="container">
-        <h1 class="display-4 text-center py-1">Reja va Maqsadlar</h1>
-        <div>
+        <h1 class="display-3 text-center py-1">Reja va Maqsadlar</h1>
+        <div style="margin-bottom: 40px;">
             <form class="row g-3" id="create-form" action="/create-item" method="POST">
                 <div class="d-flex align-items-center">
                    <input id="create-field" name="item" autofocus autocomplete="off" type="text" class="form-control" style="flex:1">
-                   <button type="submit" class="btn btn-primary">Yangi Harid Qo'shish</button>
+                   <button type="submit" class="btn btn-primary" style="border-radius: 5px; margin-left: 5px;">Yangi Reja qo'shish</button>
                 </div>
               </form>
         </div>
+        <button type="button" class="btn btn-danger" style="border-radius: 20px;">Hamma rejalarni O'chirish</button>
       </div>
+      
      </body>
     </html>

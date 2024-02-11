@@ -1,6 +1,5 @@
 console.log("Web Server Boshlash");
 const express = require("express");
-const res = require("express/lib/response");
 const app = express();
 const http = require("http");
 const fs = require("fs");
@@ -35,8 +34,7 @@ app.set("view engine", "ejs");                 // hamda view folder engine ni ej
 
 
 app.post("/create-item", (req, res) => {
-    console.log(req.body);
-    res.json({test: "success"});
+   //todo: code with db here
 });
 
 app.get('/author', (req, res) => {
@@ -44,11 +42,11 @@ app.get('/author', (req, res) => {
 })
 
 app.get("/", function (req, res) {
-    res.render("harid"); 
+    res.render("reja"); 
 }); 
 
 const server = http.createServer(app);
 let PORT = 3000;
 server.listen(PORT, function() {
-    console.log(`Server is running successfully on port: ${PORT}`);
+    console.log(`Server is running successfully on port: ${PORT}, http://localhost:${PORT}`); 
 });
