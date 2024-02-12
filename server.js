@@ -6,7 +6,7 @@ const connectionString = "mongodb+srv://khaydarovdilshod9:Bppa9U2FiLzldjoe@clust
 
 mongodb.connect(connectionString, { 
     useNewUrlParser:true, 
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
 }, (err, client) => {
     if(err) console.log("Error on connection MongoDB");
     else {

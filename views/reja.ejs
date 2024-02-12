@@ -16,12 +16,34 @@
         <div style="margin-bottom: 40px;">
             <form class="row g-3" id="create-form" action="/create-item" method="POST">
                 <div class="d-flex align-items-center">
-                   <input id="create-field" name="item" autofocus autocomplete="off" type="text" class="form-control" style="flex:1">
+                   <input 
+                     id="create-field" 
+                     name="reja" 
+                     autofocus 
+                     autocomplete="off" 
+                     type="text" 
+                     class="form-control" 
+                     style="flex:1">
                    <button type="submit" class="btn btn-primary" style="border-radius: 5px; margin-left: 5px;">Yangi Reja qo'shish</button>
                 </div>
               </form>
         </div>
-        <button type="button" class="btn btn-danger" style="border-radius: 20px;">Hamma rejalarni O'chirish</button>
+        <!-- <%= items[1].reja %> -->
+
+        <ul id="item-list" class="list-group list-group-flush pb-5">
+          <% items.map(function(item) { %>
+            <li class="list-group-item list-group-item-info d-flex align-items-center justify-content-between">
+              <span class="item-text"><%=item.reja%></span>
+              <div>
+                <button data-id="<%=item.id%>" class="edit-me btn btn-secondary btn-sm mr-1">Ozgartirish</button>
+                <button data-id="<%=item.id%>" class="delete-me btn btn-danger btn-sm">Ochirish</button>
+              </div>  
+            </li>
+         <% }) %>
+        </ul>
+         <button type="button" class="btn btn-danger" style="border-radius: 20px;">Hamma rejalarni O'chirish</button>
+
+      </div>
       </div>
       
      </body>
