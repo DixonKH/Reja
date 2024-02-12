@@ -1,10 +1,26 @@
 //   ===============================  Task B
 
+function countDigit(txt) {
+       let total = 0;
+      for(let i = 0; i < txt.length; i++) {
+       // console.log(txt[i]);
+        if(! isNaN(txt[i])) {
+                total++;
+        }
+      }
+      return total;
+}
+
+let result =countDigit("fg7he3b4nj5gff3crr5ht2");
+console.log(result);
+
+//! isNaN(txt[i])
 
 
 
 
-// TASK-A
+//  ============================= TASK-A
+
 // function countLetter(a, b) {
 //     let total = 0;
 //     for(let i = 0; i < b.length; i++) {
