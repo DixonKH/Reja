@@ -28,7 +28,6 @@
                 </div>
               </form>
         </div>
-        <!-- <%= items[1].reja %> -->
 
         <ul id="item-list" class="list-group list-group-flush pb-5">
           <% items.map(function(item) { %>
@@ -38,10 +37,10 @@
                 <button data-id="<%=item._id%>" class="edit-me btn btn-secondary btn-sm mr-1">Ozgartirish</button>
                 <button data-id="<%=item._id%>" class="delete-me btn btn-danger btn-sm">Ochirish</button>
               </div>  
-            </li>
+            </li> 
          <% }) %>
         </ul>
-         <button type="button" class="btn btn-danger" style="border-radius: 20px;">Hamma rejalarni O'chirish</button>
+         <button id="clean-all" type="button" class="btn btn-danger" style="border-radius: 20px;">Hamma rejalarni O'chirish</button>
       </div>
       </div>
       

@@ -18,5 +18,5 @@ mongodb.connect(connectionString, {
          server.listen(PORT, function() {
          console.log(`Server is running successfully on port: ${PORT}, http://localhost:${PORT}`); 
       });
-    }
+    } 
 });
