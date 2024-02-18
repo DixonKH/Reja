@@ -1,31 +1,46 @@
+//  ================================  Task-I 
+
+function getReverse(txt) {
+      let arr = [];
+      for(let i = 0; i < txt.length; i ++) {
+        arr.push(txt[i]);
+      }
+      const new_arr = arr.reverse();
+      const new_str = new_arr.join("");
+
+      return  console.log(new_str);
+}
+
+getReverse("Hello");
+
 
 //  ===================================  Task - D
-  function checkContent(a, b) {
-        let arr = [];
-        let arr2 = [];
-        if(typeof a == "string" && typeof b == "string") {
-              for(let i = 0; i < a.length; i++) {
-                arr.push(a[i]);
-              };
-              for(let k = 0; k < b.length; k++) {
-                arr2.push(b[k]);
-              }; 
-              const new_arr = arr.sort();
-              const new_arr2 = arr2.sort();
-              const str1 = new_arr.toString();
-              const str2 = new_arr2.toString();
-              if(str1 === str2) {
-                return true;
-              } else {
-                return false;
-              }
-        }
+  // function checkContent(a, b) {
+  //       let arr = [];
+  //       let arr2 = [];
+  //       if(typeof a == "string" && typeof b == "string") {
+  //             for(let i = 0; i < a.length; i++) {
+  //               arr.push(a[i]);
+  //             };
+  //             for(let k = 0; k < b.length; k++) {
+  //               arr2.push(b[k]);
+  //             }; 
+  //             const new_arr = arr.sort();
+  //             const new_arr2 = arr2.sort();
+  //             const str1 = new_arr.toString();
+  //             const str2 = new_arr2.toString();
+  //             if(str1 === str2) {
+  //               return true;
+  //             } else {
+  //               return false;
+  //             }
+  //       }
         
-  }
+  // }
 
-  const result = checkContent("mitgroup", "gmtiprou");
+  // const result = checkContent("mitgroup", "gmtiprou");
 
-  console.log(result);
+  // console.log(result);
 
 
 
