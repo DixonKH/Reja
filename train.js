@@ -1,4 +1,4 @@
-//  ================================  Task-I 
+//  ================================  Task-E 
 
 function getReverse(txt) {
       let arr = [];
@@ -11,7 +11,7 @@ function getReverse(txt) {
       return  console.log(new_str);
 }
 
-getReverse("Hello");
+getReverse("Salom");
 
 
 //  ===================================  Task - D
