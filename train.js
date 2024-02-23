@@ -1,18 +1,22 @@
 
-//  ===========================  Task -F
+//  ===========================  Task-G
 
-function findDouble(str) {
-  const txt = str.toLowerCase(); 
- for (let i = 0; i < txt.length-1; i++) {
-    if(txt[i] === txt[i+1]) {
-       console.log(txt[i+1]);
-       return true;
-    }
- }
- return false;
-}
+function getHighestIndex(arr) {
+   if(Array.isArray(arr)) {
+      let largest = arr[0];
+      for(let i = 0; i < arr.length; i++) {
+         if(arr[i] > largest) {
+            largest = arr[i];
+           }
+         largeIndex = arr.indexOf(largest); 
+         }
+      }
+      return largeIndex;
+         
+      }
 
-let result = findDouble("Hello");
-console.log("result: ", result);
+const result = getHighestIndex([4, 47, 26, 7, 24, 47]);
+
+console.log("largeIndex: ", result);
 
 
